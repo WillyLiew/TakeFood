@@ -1,0 +1,10 @@
+[{"name":"Nasi Ayam", "icon":"nasi_ayam.jpg", "price":"6.50","rating":"4.9","delivery":0},
+{"name":"Ayam Penyet", "icon":"ayam_penyet.jpg", "price":"8.00","rating":"4.91","delivery":2},
+{"name":"Maggi Goreng", "icon":"maggi_goreng.jpg", "price":"4.50","rating":"4.88","delivery":0},
+{"name":"Nasi Lemak", "icon":"nasi_lemak.jpg", "price":"5.50","rating":"4.91","delivery":0},
+{"name":"Nasi Goreng Kampung", "icon":"nasi_goreng_kampung.jpg", "price":"5.50","rating":"4.87","delivery":2},
+{"name":"Bihun Goreng", "icon":"bihun_goreng.jpg", "price":"6.00","rating":"4.89","delivery":0},
+{"name":"Kueh Tiaw Goreng", "icon":"kueh_tiaw.jpg", "price":"6.50","rating":"4.75","delivery":3},
+{"name":"Laksa", "icon":"laksa.jpg", "price":"6.80","rating":"4.79","delivery":3},
+{"name":"Satay", "icon":"satay.jpg", "price":"8.80","rating":"4.95","delivery":0}
+]

@@ -1,0 +1,5 @@
+[{"name":"Beef steak", "icon":"beef_steak.jpg", "price":"13.00","rating":"4.87","delivery":5},
+{"name":"Burger", "icon":"burger.jpg","price":"7.50","rating":"4.88","delivery":5},
+{"name":"French fries", "icon":"french_fries.jpg","price":"6.50","rating":"4.73","delivery":0},
+{"name":"Spaghetti", "icon":"spaghetti.jpg","price":"8.00","rating":"4.76","delivery":2}
+]
