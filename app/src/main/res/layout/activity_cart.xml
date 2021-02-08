@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A39055"
+    android:backgroundTint="#FFFFFF">
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="120dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="84dp"
+        android:layout_weight="1"
+        android:background="#ECE7E7"
+        android:backgroundTint="#ECE7E7"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center|center_horizontal"
+        android:text="Sub-Total : "
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.538" />
+
+    <ImageView
+        android:id="@+id/history3"
+        android:layout_width="74dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/history" />
+
+
+    <TextView
+        android:id="@+id/ca_cost3"
+        android:layout_width="109dp"
+        android:layout_height="57dp"
+        android:layout_marginEnd="96dp"
+        android:background="#A39055"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center|center_horizontal"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.538" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="218dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="MMU, 63000 Cyberjaya, Selangor"
+        app:layout_constraintEnd_toStartOf="@+id/history3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif"
+        android:text="Delivering to"
+        android:textColor="#673AB7"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="411dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:autoText="false"
+        android:background="#ECE7E7"
+        android:backgroundTint="#ECE8E8"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Shopping Cart"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="413dp"
+        android:layout_height="41dp"
+        android:layout_weight="1"
+        android:background="#A39055"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:text="Enter Promo Code"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:flow_horizontalAlign="start"
+        app:flow_verticalAlign="top"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.726" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="136dp"
+        android:layout_height="45dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Input Here"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.79" />
+
+    <Button
+        android:id="@+id/placeorder"
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:background="#A39055"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="PLACE ORDER"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/ca_qu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="1x"
+        android:textColor="#000000"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        app:layout_constraintVertical_bias="0.168" />
+
+    <TextView
+        android:id="@+id/ca_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="24dp"
+        app:layout_constraintEnd_toStartOf="@+id/ca_cost2"
+        app:layout_constraintHorizontal_bias="0.846"
+        app:layout_constraintStart_toEndOf="@+id/ca_qu"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <TextView
+        android:id="@+id/ca_cost2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        app:layout_constraintVertical_bias="0.167" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="139dp"
+        android:layout_height="35dp"
+        android:background="#ECE7E7"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:text="Quantity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.267" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="133dp"
+        android:layout_height="35dp"
+        android:background="#ECE7E7"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:text="Menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView17"
+        app:layout_constraintStart_toStartOf="@+id/textView15"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.267" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="139dp"
+        android:layout_height="35dp"
+        android:background="#ECE7E7"
+        android:gravity="center"
+        android:text="Price"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/textView15"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.267" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

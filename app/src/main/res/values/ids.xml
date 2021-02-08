@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="textView20" type="id" />
+    <item name="history3" type="id" />
+    <item name="ca_cost3" type="id" />
+    <item name="textView13" type="id" />
+    <item name="textView14" type="id" />
+    <item name="textView18" type="id" />
+    <item name="editTextTextPersonName" type="id" />
+    <item name="placeorder" type="id" />
+    <item name="ca_qu" type="id" />
+    <item name="ca_name" type="id" />
+    <item name="ca_cost2" type="id" />
+</resources>

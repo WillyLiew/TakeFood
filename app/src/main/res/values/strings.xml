@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Take Food</string>
+    <string name="beverage">Desserts &amp; Beverages</string>
+    <string name="title_activity_cart">Cart</string>
+    <string name="FoodName">Food Name</string>
+    <string name="FoodPrice">Price</string>
+    <string name="foodQuantity">Qty</string>
+    <string name="foodPrice">Price</string>
+    <string name="userEmail">1171101234@student.mmu.edu.my</string>
+</resources>
